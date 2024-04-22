@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background-image: url('../img/header.jpg');
+    background-image: url('./img/header.jpg');
     width: 100%;
     height: 90vh;
     color: rgb(0, 0, 0);
@@ -29,7 +29,7 @@ header{
     text-align: center;
     font-size: 25px;
 }
-.logos{
+.logosgit{
     width: 33.33%;
     text-align: center;
     float: left;
@@ -37,7 +37,7 @@ header{
 .columna1{
     width: 100%;
     text-align: center;
-    background-color: rgb(13, 221, 13);
+    background-color: rgb(83, 177, 217);
     color: white;
 }
 .columna2{
@@ -49,7 +49,7 @@ header{
 }
 .columna3{
     width: 50%;
-    background-color: rgb(13, 221, 13);
+    background-color: rgba(92, 88, 88, 0.578);
 }
 .columna4{
     width: 50%;
@@ -63,22 +63,10 @@ header{
     color: white;
     text-align: center;
 }
-.columnafinal2{
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: justify;
-}
 .col{
     color: white;
 }
-.bandera{
-    width: 5.5%;
-    padding-bottom: 1.4%;
-}
-.bandera2{
-    width: 5%;
-}
+
 @media screen and (max-width: 600px){
 .columna1{
     width: 50%;
